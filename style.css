@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #111;
+}
+
+#main_title {
+    width: 100%;
+    color: #FBFCF7;
+}
+
+#nav_table {
+    width: 100%;   
+}
+
+#nav_bar {
+     width: 100%;
+     font-family: StraightHeavy;
+}
+
+#nav_block {
+    color: #FBFCF7;   
+    font-family: StraightThin;
+}
+
+@font-face {
+    font-family: StraightHeavy;
+    src: url(../fonts/StraightHeavy.otf);
+}
+@font-face {
+    font-family: StraightLight;
+    src: url(../fonts/StraightLight.otf);
+}
+@font-face {
+    font-family: StraightThin;
+    src: url(../fonts/StraightThin.otf);
+}
