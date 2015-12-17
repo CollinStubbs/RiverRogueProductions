@@ -7,23 +7,28 @@ html {
     background-color: #111;
 }
 
-#main_title {
+#nav_title {
     width: 100%;
     color: #FBFCF7;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #660000;
 }
 
 #nav_table {
-    width: 100%;   
+    width: auto;   
 }
 
 #nav_bar {
      width: 100%;
      font-family: StraightHeavy;
+    margin: 15px;
 }
 
 #nav_block {
     color: #FBFCF7;   
     font-family: StraightThin;
+    
 }
 
 @font-face {
