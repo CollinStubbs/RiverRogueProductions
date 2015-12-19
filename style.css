@@ -32,7 +32,7 @@ html {
 }
 
 #recent_image_block {
-    margin-left: 250px;
+    display: inline-block;
     width:auto;
 }
 
@@ -45,6 +45,22 @@ html {
     width: 100%;
     max-width:400px;
 }
+
+#film_title, #film_title_1, #film_title_2, #film_title_3 {
+    text-align: center;
+    color: #f4f7e9;
+    font-family: StraightLight;
+    
+}
+
+#film_desc, #film_desc_1, #film_desc_2, #film_desc_3 {
+    color: #f4f7e9;
+    font-family: StraightThin;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
 
 @font-face {
     font-family: StraightHeavy;
