@@ -31,6 +31,21 @@ html {
     
 }
 
+#recent_image_block {
+    margin-left: 250px;
+    width:auto;
+}
+
+#recent_image_block img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#film_text_block {
+    width: 100%;
+    max-width:400px;
+}
+
 @font-face {
     font-family: StraightHeavy;
     src: url(../fonts/StraightHeavy.otf);
