@@ -28,7 +28,7 @@
                     <div id="nav_block">
                         <h2>MEDIA</h2>
                         <h2>ABOUT</h2>
-                        <h2>CONTACT</h2>
+                        <h2 id="contact_btn">CONTACT</h2>
                     </div>
                 </td>    
             </tr>
@@ -36,7 +36,7 @@
     </div>
     <div style="text-align: center">
         <div id="container">
-            <div id="home" hidden="hidden">
+            <div id="home">
                 <table>
                     <tr>
                         <td>
@@ -65,7 +65,7 @@
                     </tr>
                 </table>
             </div>
-            <div id="contact">
+            <div id="contact"  hidden="hidden">
                <?php
 
                     error_reporting(-1);
@@ -97,24 +97,24 @@
                 ?>
                 <div id="contact_title">
                     <h1>Questions? Concerns? Feedback?</h1>
-                    <h2>Send me a message and we'll get back to you as soon as we can!</h2>
+                    <h3>Send us a message and we'll get back to you as soon as we can!</h3>
                 </div>
                 <div id="contact_form">
                     <form method="post" action="index.php">
-                        <table>
+                        <table style="text-align: center; width: 100%;">
                             <tr>
                                 <td>
-                                    <input name="name" placeholder="NAME">
+                                    <input id="email_name" name="name" placeholder="NAME">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="email" type="email" placeholder="EMAIL">
+                                    <input id="email_email" name="email" type="email" placeholder="EMAIL">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <textarea name="message" placeholder="MESSAGE"></textarea>
+                                    <textarea id="email_message" name="message" placeholder="MESSAGE"></textarea>
                                 </td>
                             </tr>
                             <tr>

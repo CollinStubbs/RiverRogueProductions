@@ -16,13 +16,15 @@ html {
 }
 
 #nav_table {
-    width: auto;   
+    width: auto;  
+    margin-left: 15px;
 }
 
 #nav_bar {
      width: 100%;
      font-family: StraightHeavy;
-    margin: 15px;
+     margin: 15px 0px 15px 0px;
+    
 }
 
 #nav_block {
@@ -64,11 +66,25 @@ html {
 #contact {
     color: #f4f7e9;
 }
-#contact_form {
-    text-align: center;   
+#contact_title{
+    color: #f4f7e9;    
 }
 
+#contact_form {
+    text-align: center;   
+    margin-top: 25px;
+    height: 150%;
+}
 
+#email_name, #email_email, #email_message {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#email_message{
+    height: 150px;
+}
 @font-face {
     font-family: StraightHeavy;
     src: url(../fonts/StraightHeavy.otf);

@@ -9,6 +9,17 @@ $(function(){
     var rift2 = $("#film_title_3").html();
     var rift2_desc = $("#film_desc_3").html();
     
+    var home = $("#home").html();
+    var contact = $("#contact").html();
+    
+    $("#nav_title").click(function(){
+        $("#home").html(home);
+    });
+    
+    $("#contact_btn").click(function(){
+        $("#home").html(contact);
+    });
+    
     $("#img_1").hover(function(){
         $("#film_title").html(rift);
         $("#film_desc").html(rift_desc);
