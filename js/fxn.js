@@ -13,7 +13,8 @@ $(function(){
     var contact = $("#contact").html();
     
     $("#nav_title").click(function(){
-        $("#home").html(home);
+        
+        location.reload();
     });
     
     $("#contact_btn").click(function(){
