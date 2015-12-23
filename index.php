@@ -10,6 +10,7 @@
     <title>RIVER ROGUE PRODUCTIONS</title>
     
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100|Source+Sans+Pro:400,200,300' rel='stylesheet' type='text/css'>   
     
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/fxn.js"></script>
@@ -20,15 +21,15 @@
         <table id="nav_table">
             <tr>
                 <td>
-                    <h1 id="nav_title">RIVER ROGUE PRODUCTIONS</h1>
+                    <p id="nav_title">RIVER ROGUE PRODUCTIONS</p>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="nav_block">
-                        <h2>MEDIA</h2>
-                        <h2>ABOUT</h2>
-                        <h2 id="contact_btn">CONTACT</h2>
+                        <p>MEDIA</p>
+                        <p>ABOUT</p>
+                        <p id="contact_btn">CONTACT</p>
                     </div>
                 </td>    
             </tr>
@@ -52,14 +53,14 @@
                         </td>
                         <td>
                             <div id="film_text_block">
-                                <h1 id="film_title">WHAT'S NEW?</h1>
-                                <h1 id="film_title_1" hidden="hidden">Rift</h1>
-                                <h1 id="film_title_2" hidden="hidden">Oppenheimer</h1>
-                                <h1 id="film_title_3" hidden="hidden">Rift 2: Electric Boogaloo</h1>
-                                <h2 id="film_desc">Hover over and learn more about each of River Rogue Productions latest films!</h2>
-                                <h2 id="film_desc_1" hidden="hidden">A family man struggling to cope with his hidden urges has his devotion challenged by the unexpected arrival of his secret lover.</h2>
-                                <h2 id="film_desc_2" hidden="hidden">Based on a dark moment in the life of Dr. J. Robert Oppenheimer, father of the atomic bomb, 'Oppenheimer' explores nostalgia, optimism, and betrayal under the threat of impending failure.</h2>
-                                <h2 id="film_desc_3" hidden="hidden">In this eye-popping and exuberant sequal, "family man" holds a breakdance competition between his wife and his lover to decide which life he will lead.  </h2>
+                                <p id="film_title">WHAT'S NEW?</p>
+                                <p id="film_title_1" hidden="hidden">Rift</p>
+                                <p id="film_title_2" hidden="hidden">Oppenheimer</p>
+                                <p id="film_title_3" hidden="hidden">Rift 2: Electric Boogaloo</p>
+                                <p id="film_desc">Hover over and learn more about each of River Rogue Productions latest films!</p>
+                                <p id="film_desc_1" hidden="hidden">A family man struggling to cope with his hidden urges has his devotion challenged by the unexpected arrival of his secret lover.</p>
+                                <p id="film_desc_2" hidden="hidden">Based on a dark moment in the life of Dr. J. Robert Oppenheimer, father of the atomic bomb, 'Oppenheimer' explores nostalgia, optimism, and betrayal under the threat of impending failure.</p>
+                                <p id="film_desc_3" hidden="hidden">In this eye-popping and exuberant sequal, "family man" holds a breakdance competition between his wife and his lover to decide which life he will lead.  </p>
                             </div>
                         </td>
                     </tr>

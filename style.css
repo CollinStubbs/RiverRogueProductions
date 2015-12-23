@@ -22,20 +22,32 @@ html {
 
 #nav_bar {
      width: 100%;
-     font-family: StraightHeavy;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 32px;
+     letter-spacing: 2px;
      margin: 15px 0px 15px 0px;
     
 }
 
 #nav_block {
     color: #FBFCF7;   
-    font-family: StraightThin;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;    
+    letter-spacing: 2px;
     
 }
 
 #container {
     display: inline-block;
     width:auto;
+}
+
+#home {
+    background-color: #000;
+    
+    
 }
 
 #container img {
@@ -51,14 +63,18 @@ html {
 #film_title, #film_title_1, #film_title_2, #film_title_3 {
     text-align: center;
     color: #f4f7e9;
-    font-family: StraightLight;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
     
 }
 
 #film_desc, #film_desc_1, #film_desc_2, #film_desc_3 {
     color: #f4f7e9;
-    font-family: StraightThin;
-    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 200;
     margin-left: 15px;
     margin-top: 20px;
 }

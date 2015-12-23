@@ -18,7 +18,7 @@ $(function(){
     });
     
     $("#contact_btn").click(function(){
-        $("#home").html(contact);
+        $("#container").html(contact);
     });
     
     $("#img_1").hover(function(){
