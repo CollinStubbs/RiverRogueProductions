@@ -38,7 +38,7 @@
     <div style="text-align: center">
         <div id="container">
             <div id="home">
-                <table>
+                <table id="film_table">
                     <tr>
                         <td>
                             <img id="img_1" src="img/RiftTEMP.PNG" alt="RIFT">
@@ -67,64 +67,65 @@
                 </table>
             </div>
             <div id="contact"  hidden="hidden">
-               <?php
+                <div id="contact_div">
+                   <?php
 
-                    error_reporting(-1);
-                    ini_set('display_errors', 'On');
-                    set_error_handler("var_dump");
+                        error_reporting(-1);
+                        ini_set('display_errors', 'On');
+                        set_error_handler("var_dump");
 
-                    $name = isset($_POST['name']) ? $_POST['name'] : '';
-                    $email = isset($_POST['email']) ? $_POST['email'] : '';
-                    $message = isset($_POST['message']) ? $_POST['message'] : '';
-                    $headers = array("From: from@example.com",
-                                    "Reply-To: replyto@example.com",
-                                     "X-Mailer: PHP/" . PHP_VERSION
-                                    );
-                    $headers = implode("\r\n", $headers);
-                    $to = 'collintstubbs@gmail.com'; 
-                    $subject = 'Hello';
-                    
+                        $name = isset($_POST['name']) ? $_POST['name'] : '';
+                        $email = isset($_POST['email']) ? $_POST['email'] : '';
+                        $message = isset($_POST['message']) ? $_POST['message'] : '';
+                        $headers = array("From: from@example.com",
+                                        "Reply-To: replyto@example.com",
+                                         "X-Mailer: PHP/" . PHP_VERSION
+                                        );
+                        $headers = implode("\r\n", $headers);
+                        $to = 'collintstubbs@gmail.com'; 
+                        $subject = 'Hello';
 
-                    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
-                    if (isset($_POST['submit'])) {				 
-                        if (mail ($to, $subject, $body, $headers)) { 
-                        echo '<p>Your message has been sent!</p>';
-                    } else { 
-                        echo '<p>Something went wrong, go back and try again!</p>'; 
-                    } 
-                    }
-                    
-                ?>
-                <div id="contact_title">
-                    <h1>Questions? Concerns? Feedback?</h1>
-                    <h3>Send us a message and we'll get back to you as soon as we can!</h3>
-                </div>
-                <div id="contact_form">
-                    <form method="post" action="index.php">
-                        <table style="text-align: center; width: 100%;">
-                            <tr>
-                                <td>
-                                    <input id="email_name" name="name" placeholder="NAME">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input id="email_email" name="email" type="email" placeholder="EMAIL">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <textarea id="email_message" name="message" placeholder="MESSAGE"></textarea>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input id="submit" name="submit" type="submit" value="Submit">
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
+                        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+                        if (isset($_POST['submit'])) {				 
+                            if (mail ($to, $subject, $body, $headers)) { 
+                            echo '<p>Your message has been sent!</p>';
+                        } else { 
+                            echo '<p>Something went wrong, go back and try again!</p>'; 
+                        } 
+                        }
+
+                    ?>
+                    <div id="contact_title">
+                        <p>Contact Us</p>
+                    </div>
+                    <div id="contact_form">
+                        <form method="post" action="index.php">
+                            <table style="text-align: center; width: 100%;">
+                                <tr>
+                                    <td>
+                                        <input id="email_name" name="name" placeholder="NAME">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="email_email" name="email" type="email" placeholder="EMAIL">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <textarea id="email_message" name="message" placeholder="MESSAGE"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="submit" name="submit" type="submit" value="Submit">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
