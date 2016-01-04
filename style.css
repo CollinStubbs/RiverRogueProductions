@@ -46,13 +46,16 @@ html {
 
 #home {
     background-color: #000;
-    
-    
 }
 
 #container img {
     width: 100%;
     max-width: 400px;
+}
+
+#img_1:hover, #img_2:hover, #img_3:hover {
+    border: 1px solid #32abec;   
+    margin: -1px;
 }
 
 #film_text_block {
