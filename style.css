@@ -12,13 +12,9 @@ html {
     color: #FBFCF7;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    border-bottom: 2px solid #660000;
+    text-align: center;
 }
 
-#nav_table {
-    width: auto;  
-    margin-left: 15px;
-}
 
 #nav_bar {
      width: 100%;
@@ -26,7 +22,8 @@ html {
      font-weight: 400;
      font-size: 32px;
      letter-spacing: 2px;
-     margin: 15px 0px 15px 0px;
+     margin: 35px 0px 55px 0px;
+     
     
 }
 
@@ -34,9 +31,18 @@ html {
     color: #FBFCF7;   
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 25px;    
-    letter-spacing: 2px;
-    
+    font-size: 19px;    
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#nav_block_table{
+    margin: 0 auto;
+    width: 350px;
+}
+
+#media_btn, #about_btn{
+     border-right: 1px solid #FFF;  
 }
 
 #container {
@@ -87,6 +93,19 @@ html {
     margin-top: 20px;
 }
 
+#media {
+    color: #000;
+    width: 100%;
+}
+
+#RIFT {
+    width: 40%;
+    height: auto;
+}
+.videoWrapper {
+    height: 40%;   
+}
+
 #contact {
     color: #f4f7e9;
     width: 50%;
@@ -111,11 +130,13 @@ html {
     height: 150%;
 }
 
+
 #email_name, #email_email, #email_message {
     width: 60%;
     padding: 5px;
     margin-bottom: 5px;
     font-family: 'Source Sans Pro',Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 #email_message{

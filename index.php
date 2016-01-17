@@ -18,22 +18,24 @@
 
 <body class="main">
     <div id="nav_bar">
-        <table id="nav_table">
-            <tr>
-                <td>
-                    <p id="nav_title">RIVER ROGUE PRODUCTIONS</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="nav_block">
-                        <p>MEDIA</p>
-                        <p>ABOUT</p>
-                        <p id="contact_btn">CONTACT</p>
-                    </div>
-                </td>    
-            </tr>
-        </table>
+       <div id="nav_title">
+           <p>River Rogue Productions</p>
+       </div>
+       <div id="nav_block">
+           <table id="nav_block_table">
+               <tr>
+                   <td>
+                       <p id="media_btn">Media</p>
+                   </td>
+                   <td>
+                       <p id="about_btn">About</p>
+                   </td>
+                   <td>
+                       <p id="contact_btn">Contact</p>
+                   </td>
+               </tr>
+           </table>
+       </div>
     </div>
     <div style="text-align: center">
         <div id="container">
@@ -54,19 +56,24 @@
                         <td>
                             <div id="film_text_block">
                                 <p id="film_title">WHAT'S NEW?</p>
-                                <p id="film_title_1" hidden="hidden">Rift</p>
-                                <p id="film_title_2" hidden="hidden">Oppenheimer</p>
-                                <p id="film_title_3" hidden="hidden">Rift 2: Electric Boogaloo</p>
+                                <p id="film_title_1" style="display: none;">Rift</p>
+                                <p id="film_title_2" style="display: none;">Oppenheimer</p>
+                                <p id="film_title_3" style="display: none;">Rift 2: Electric Boogaloo</p>
                                 <p id="film_desc">Hover over and learn more about each of River Rogue Productions latest films!</p>
-                                <p id="film_desc_1" hidden="hidden">A family man struggling to cope with his hidden urges has his devotion challenged by the unexpected arrival of his secret lover.</p>
-                                <p id="film_desc_2" hidden="hidden">Based on a dark moment in the life of Dr. J. Robert Oppenheimer, father of the atomic bomb, 'Oppenheimer' explores nostalgia, optimism, and betrayal under the threat of impending failure.</p>
-                                <p id="film_desc_3" hidden="hidden">In this eye-popping and exuberant sequal, "family man" holds a breakdance competition between his wife and his lover to decide which life he will lead.  </p>
+                                <p id="film_desc_1" style="display: none;">A family man struggling to cope with his hidden urges has his devotion challenged by the unexpected arrival of his secret lover.</p>
+                                <p id="film_desc_2" style="display: none;">Based on a dark moment in the life of Dr. J. Robert Oppenheimer, father of the atomic bomb, 'Oppenheimer' explores nostalgia, optimism, and betrayal under the threat of impending failure.</p>
+                                <p id="film_desc_3" style="display: none;">In this eye-popping and exuberant sequal, "family man" holds a breakdance competition between his wife and his lover to decide which life he will lead.  </p>
                             </div>
                         </td>
                     </tr>
                 </table>
             </div>
-            <div id="contact"  hidden="hidden">
+            <div id="media"  style="display: none;">
+                <iframe src="//player.vimeo.com/video/96460791" id="RIFT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div id="about"  style="display: none;">
+            </div>
+            <div id="contact"  style="display: none;">
                 <div id="contact_div">
                    <?php
 
@@ -105,17 +112,17 @@
                             <table style="text-align: center; width: 100%;">
                                 <tr>
                                     <td>
-                                        <input id="email_name" name="name" placeholder="NAME">
+                                        <input id="email_name" name="name" placeholder="What's your name?">
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input id="email_email" name="email" type="email" placeholder="EMAIL">
+                                        <input id="email_email" name="email" type="email" placeholder="What's your email?">
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <textarea id="email_message" name="message" placeholder="MESSAGE"></textarea>
+                                        <textarea id="email_message" name="message" placeholder="What did you want to tell us?"></textarea>
                                     </td>
                                 </tr>
                                 <tr>

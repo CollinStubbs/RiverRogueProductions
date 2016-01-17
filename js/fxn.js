@@ -10,11 +10,21 @@ $(function(){
     var rift2_desc = $("#film_desc_3").html();
     
     var home = $("#home").html();
+    var about = $("#about").html();
+    var media = $("#media").html();
     var contact = $("#contact").html();
     
     $("#nav_title").click(function(){
         
         location.reload();
+    });
+    
+     $("#about_btn").click(function(){
+        $("#container").html(about);
+    });
+    
+     $("#media_btn").click(function(){
+        $("#container").html(media);
     });
     
     $("#contact_btn").click(function(){
