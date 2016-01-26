@@ -16,19 +16,19 @@ $(function(){
     
     $("#nav_title").click(function(){
         
-        location.reload();
-    });
-    
-     $("#about_btn").click(function(){
-        $("#container").html(about);
+        location.href = ("index.php");
     });
     
      $("#media_btn").click(function(){
-        $("#container").html(media);
+        location.href = ("media.html");
+    });
+    
+     $("#about_btn").click(function(){
+        location.href = ("about.html");
     });
     
     $("#contact_btn").click(function(){
-        $("#container").html(contact);
+        location.href = ("contact.html");
     });
     
     $("#img_1").hover(function(){

@@ -45,6 +45,11 @@ html {
      border-right: 1px solid #FFF;  
 }
 
+#media_btn, #about_btn, #contact_btn, #nav_title{
+    cursor: pointer;
+    cursor: hand;   
+}
+
 #container {
     display: inline-block;
     width: 100%;
@@ -109,13 +114,14 @@ html {
 #contact {
     color: #f4f7e9;
     width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #contact_div {
     background-color: #000;
     padding: 15px;
     font-family: 'Source Sans Pro',Helvetica, Arial, sans-serif;
-    width: 30%;
     margin: 0 auto;
 }
 
